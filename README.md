@@ -54,11 +54,9 @@ Les acquis critiques officiellement rattachés à R2.03 :
 - **Traces** et utilisation d'outils de débogage
 - Utilisation d'un **outil de gestion de versions**
 
-### SAÉ concernées par cette ressource
+### SAÉ concernée par cette ressource
 
-- **S2.01** Développement d'une application
-- **S2.02** Exploration algorithmique d'un problème
-- **S2.05** Gestion d'un projet
+- **SAÉ 2.01** — Développement d'une application
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
