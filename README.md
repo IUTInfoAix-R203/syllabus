@@ -8,43 +8,78 @@
 
 - **Intitulé** : R2.03 - Qualité de développement
 - **Semestre** : S2
+- **Volume horaire** : 18 h (dont 14 h de TP)
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Enseignantes** :
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
-- **Ressource officielle** : [Annexe 17 PN BUT Informatique](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+- **Ressource officielle** : [Annexe D du PN BUT Informatique — fiche R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+- **Mots-clés officiels** : Qualité, Test, Gestion de version
 
 ---
 
 ## 🎯 Objectifs pédagogiques
 
-### Objectif général
+### Objectif général (extrait du PN)
 
-Maîtriser les **pratiques de l'artisanat logiciel** : gestion de version avancée (Git), développement piloté par les tests (TDD), kata en pair programming, refactoring de code existant. Passer de "ça marche sur ma machine" à **produire du code propre, testé, relu et maintenable**.
+> *Cette ressource finalise le niveau 1 de la compétence 1 en introduisant la mécanique de tests, qui est fondamentale à la réalisation d'un développement d'application. Enfin, l'initiation à l'utilisation d'un outil de gestion de version apporte une première mise en pratique des outils de gestion de projet de la compétence 5.*
 
-### Compétences BUT visées
+En pratique, le module vise à maîtriser les **fondations de l'artisanat logiciel** : gestion de version (Git), tests unitaires automatisés (TDD), gestion des erreurs, débogage, relecture de code. L'objectif est de passer de "ça marche sur ma machine" à **produire du code propre, testé et maintenable**.
 
-- **C2 AC2** : Comparer des algorithmes pour des problèmes classiques
-- **C3 AC1** : Installer et configurer un environnement de développement
-- **C6 AC1** : Appréhender l'écosystème numérique (Git, GitHub, CI, éditeur, IA générative)
+### Compétences BUT ciblées
 
-### Acquis d'apprentissage visés
+Trois compétences du référentiel BUT Informatique sont ciblées par R2.03 :
+
+| Compétence | Intitulé |
+|---|---|
+| **Compétence 1** | Développer des applications informatiques simples |
+| **Compétence 4** | Concevoir et mettre en place une base de données à partir d'un cahier des charges client |
+| **Compétence 5** | Identifier les besoins métiers des clients et des utilisateurs |
+
+### Apprentissages critiques (AC)
+
+Les acquis critiques officiellement rattachés à R2.03 :
+
+- **C1 AC2** — Élaborer des conceptions simples
+- **C1 AC3** — Faire des essais et évaluer leurs résultats en regard des spécifications *(cœur du module : tests unitaires et non-régression)*
+- **C4 AC2** — Visualiser des données *(traces et outils de débogage)*
+- **C5 AC2** — Mettre en place les outils de gestion de projet *(gestion de versions Git/GitHub)*
+
+### Savoirs de référence (descriptif PN)
+
+- Première approche de la gestion des cas d'erreurs (ex : `Exception`…)
+- Sensibilisation à la production de **tests unitaires**, problématique de la **non-régression**
+- **Automatisation** de tests unitaires
+- **Traces** et utilisation d'outils de débogage
+- Utilisation d'un **outil de gestion de versions**
+
+### SAÉ concernées par cette ressource
+
+- **S2.01** Développement d'une application
+- **S2.02** Exploration algorithmique d'un problème
+- **S2.05** Gestion d'un projet
+
+### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
 À l'issue de cette ressource, l'étudiant sera capable de :
 
-1. **Utiliser Git en pro** : rebase, cherry-pick, rebase interactif, reflog, Conventional Commits
-2. **Collaborer** via pull request + code review croisée, et **relire** constructivement le code d'un pair
-3. **Pratiquer le TDD strict** : cycle RED-GREEN-REFACTOR, baby steps, fake-it, triangulation
-4. **Travailler en pair programming** (driver/navigator) sur des kata
-5. **Identifier des code smells** (Long Method, God Class, Magic Number, Feature Envy…) et les corriger par les refactorings de Fowler
-6. **Mettre en place un filet de tests de caractérisation** sur du legacy code avant de le refactorer
-7. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution
+1. **Utiliser Git en pro** : rebase, cherry-pick, rebase interactif, reflog, Conventional Commits *(C5 AC2)*
+2. **Collaborer** via pull request + code review croisée, et relire constructivement le code d'un pair *(C5 AC2)*
+3. **Pratiquer le TDD strict** : cycle RED-GREEN-REFACTOR, baby steps, fake-it, triangulation *(C1 AC3)*
+4. **Gérer les cas d'erreur** : `try/catch`, exceptions vérifiées vs non vérifiées, messages d'erreur explicites *(C1 AC2)*
+5. **Pratiquer la non-régression** : un filet de tests exécuté en CI à chaque modification *(C1 AC3)*
+6. **Lire des traces de test et un stack trace** pour localiser la cause d'un échec *(C4 AC2)*
+7. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution *(C5 AC2)*
+
+> **Note** : le TP3 (kata en pair programming) et le TP4 (refactoring et code smells) vont au-delà du strict descriptif PN. Ces ajouts visent à consolider C1 AC3 en pratiquant le TDD sur des exercices plus riches et à préparer la SAÉ 2.01 (développement d'application) en introduisant les réflexes de lecture et d'amélioration de code existant.
 
 ---
 
 ## 📚 Prérequis
 
-### Connaissances requises
+Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'appuie sur :
+
+### Connaissances recommandées
 
 - **R1.01 (Initiation au développement)** : bases de la programmation (C++)
 - **R2.01 (Développement orienté objets)** : POO Java (classes, héritage, interfaces, collections)
