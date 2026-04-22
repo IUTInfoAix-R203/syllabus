@@ -105,16 +105,19 @@ Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'app
 
 ### Calendrier 2025-2026
 
-Le module est concentré sur **4 semaines consécutives**, du 27 avril au 18 mai 2026 :
+Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai 2026, suivies d'un **examen écrit** en commun avec R2.02 le 15 juin :
 
 | Semaine | Date | CM | TD | TP | Contenu |
 |---|---|---|---|---|---|
 | 1 | Lun. 27 avril 2026 | 2 h | — | — | **CM1** : Artisanat logiciel, qualité, Git avancé |
 | 2 | Lun. 4 mai 2026 | 2 h | 4 h | 4 h | **CM2** : TDD & refactoring · **TP1** Git (~2 h TD) · **TP2** TDD |
 | 3 | Lun. 11 mai 2026 | — | — | 4 h | **TP3** Kata en pair programming |
-| 4 | Lun. 18 mai 2026 | — | — | 4 h + 2 h test | **TP4** Refactoring · **CC3** test écrit (2 h) |
+| 4 | Lun. 18 mai 2026 | — | — | 4 h | **TP4** Refactoring |
+| **Examen** | **Lun. 15 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.02 (salle de test) |
 
 **Durée d'une séance** : bloc de 4 h ou 2 × 2 h selon le groupe. Le responsable organise le découpage avec la scolarité.
+
+**Entre le TP4 (18 mai) et l'examen (15 juin)** : la SAE 2.01 occupe les étudiants. L'examen a lieu **après la SAE** pour que les étudiants y arrivent avec les réflexes TDD consolidés par leur projet.
 
 ### Cours magistraux (4 h au total)
 
@@ -212,6 +215,7 @@ Appréciée tout au long du semestre. Critères :
 
 ### CC3 — Examen terminal écrit
 
+- **Date** : lundi 15 juin 2026, **en commun avec R2.02** (salle de test)
 - **Durée** : 2 heures
 - **Documents autorisés** : aucun outil d'assistance (pas de Copilot, pas d'IDE, pas de navigateur)
 - **Sujet** : mini-kata TDD à coder sur feuille — on donne un cahier de tests, l'étudiant écrit le code qui les fait passer en TDD baby steps
