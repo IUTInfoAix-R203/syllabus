@@ -8,7 +8,8 @@
 
 - **Intitulé** : R2.03 - Qualité de développement
 - **Semestre** : S2
-- **Volume horaire** : 18 h (dont 14 h de TP)
+- **Volume horaire PN** : 18 h (dont 14 h de TP)
+- **Maquette locale 2025-2026** : 4 h CM + 5 h TD + 13 h TP + 2 h test écrit
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Enseignantes** :
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
@@ -102,14 +103,29 @@ Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'app
 
 ## 📖 Programme détaillé
 
-### Cours magistraux (2 × 1h30 + 2 démos)
+### Calendrier 2025-2026
+
+Le module est concentré sur **4 semaines consécutives**, du 27 avril au 18 mai 2026 :
+
+| Semaine | Date | CM | TD | TP | Contenu |
+|---|---|---|---|---|---|
+| 1 | Lun. 27 avril 2026 | 2 h | — | — | **CM1** : Artisanat logiciel, qualité, Git avancé |
+| 2 | Lun. 4 mai 2026 | 2 h | 4 h | 4 h | **CM2** : TDD & refactoring · **TP1** Git (~2 h TD) · **TP2** TDD |
+| 3 | Lun. 11 mai 2026 | — | — | 4 h | **TP3** Kata en pair programming |
+| 4 | Lun. 18 mai 2026 | — | — | 4 h + 2 h test | **TP4** Refactoring · **CC3** test écrit (2 h) |
+
+**Durée d'une séance** : bloc de 4 h ou 2 × 2 h selon le groupe. Le responsable organise le découpage avec la scolarité.
+
+### Cours magistraux (4 h au total)
 
 | CM | Thème | Prépare | Niveau Bloom | Statut |
 |----|-------|---------|--------------|--------|
 | CM1 | Artisanat logiciel, qualité, Git avancé | TP1 + TP2 | Comprendre → Appliquer | ⏳ À venir |
 | CM2 | TDD, refactoring, code smells, Clean Code | TP3 + TP4 | Analyser → Créer | ⏳ À venir |
-| Démo TP3 | Kata live en pair programming (20 min début de séance) | TP3 | Appliquer | ⏳ À venir |
-| Démo TP4 | Refactoring IDE sur Gilded Rose (20 min début de séance) | TP4 | Analyser | ⏳ À venir |
+
+Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3 et TP4 :
+- Avant TP3 : kata en pair programming (driver/navigator) sur Bowling ou Tennis
+- Avant TP4 : refactoring IDE sur Gilded Rose (reconnaissance d'un code smell, application d'un refactoring de Fowler étape par étape)
 
 **Fil rouge des CM** — trois axes traversent l'ensemble :
 
@@ -117,14 +133,14 @@ Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'app
 - **✨ Qualité** : tests comme spécification exécutable → couverture → code smells → refactorings
 - **🤝 Collaboration** : Git avancé → PR + review → pair programming
 
-### Travaux pratiques (4 séances)
+### Travaux pratiques (13 h TP + 4 h TD)
 
 | TP | Thème | Exercices | Format | Noté | Statut |
 |----|-------|-----------|--------|------|--------|
-| [TP1](https://github.com/IUTInfoAix-R203/tp1) | Git avancé et bonnes pratiques | 7 ateliers | ~2h | ❌ mise à niveau | ✅ Publié |
-| TP2 | TDD | 6 + 1 bonus | ~6-8h | ✅ autograding | ⏳ À venir |
-| TP3 | Kata et pair programming | 6 | ~6-8h | ✅ autograding | ⏳ À venir |
-| TP4 | Refactoring | 6 | ~6-8h | ✅ autograding | ⏳ À venir |
+| [TP1](https://github.com/IUTInfoAix-R203/tp1) | Git avancé et bonnes pratiques | 7 ateliers | ~2 h TD (semaine 2) | ❌ mise à niveau | ✅ Publié |
+| TP2 | TDD | 6 + 1 bonus | ~6 h (TD semaine 2 + TP semaine 2) | ✅ autograding | ⏳ À venir |
+| TP3 | Kata et pair programming | 6 | 4 h TP (semaine 3) | ✅ autograding | ⏳ À venir |
+| TP4 | Refactoring | 6 | 4 h TP (semaine 4) | ✅ autograding | ⏳ À venir |
 
 Chaque TP est autonome (son propre repo Git, sa propre fiche Classroom) mais s'inscrit dans la progression : le workflow Git du TP1 (branche → PR → review → merge) est appliqué systématiquement dans TP2-4, et le TDD baby-steps du TP2 est le cadre d'exécution des kata du TP3 et des refactorings du TP4.
 
