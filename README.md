@@ -140,12 +140,14 @@ Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3
 
 | TP | Thème | Exercices | Format | Noté | Statut |
 |----|-------|-----------|--------|------|--------|
-| [TP1](https://github.com/IUTInfoAix-R203/tp1) | Git avancé et bonnes pratiques | 7 ateliers | ~2 h TD (semaine 2) | ❌ mise à niveau | ✅ Publié |
+| TP1 | Git avancé et bonnes pratiques | 7 ateliers | ~2 h TD (semaine 2) | ❌ mise à niveau | ✅ Publié |
 | TP2 | TDD | 6 + 1 bonus | ~6 h (TD semaine 2 + TP semaine 2) | ✅ autograding | ⏳ À venir |
 | TP3 | Kata et pair programming | 6 | 4 h TP (semaine 3) | ✅ autograding | ⏳ À venir |
 | TP4 | Refactoring | 6 | 4 h TP (semaine 4) | ✅ autograding | ⏳ À venir |
 
-Chaque TP est autonome (son propre repo Git, sa propre fiche Classroom) mais s'inscrit dans la progression : le workflow Git du TP1 (branche → PR → review → merge) est appliqué systématiquement dans TP2-4, et le TDD baby-steps du TP2 est le cadre d'exécution des kata du TP3 et des refactorings du TP4.
+Les énoncés et le code de chaque TP sont distribués aux étudiants exclusivement via **GitHub Classroom** : l'index public [`tp`](https://github.com/IUTInfoAix-R203/tp) centralise les liens et chaque acceptation crée un dépôt personnel dans l'organisation Classroom [`IUTInfoAix-R203-2026`](https://github.com/IUTInfoAix-R203-2026).
+
+Chaque TP est autonome (son propre dépôt, sa propre fiche Classroom) mais s'inscrit dans la progression : le workflow Git du TP1 (branche → PR → review → merge) est appliqué systématiquement dans TP2-4, et le TDD baby-steps du TP2 est le cadre d'exécution des kata du TP3 et des refactorings du TP4.
 
 ---
 
@@ -229,16 +231,16 @@ Appréciée tout au long du semestre. Critères :
 
 ## 🛠️ Ressources techniques
 
-### Dépôts GitHub (organisation [`IUTInfoAix-R203`](https://github.com/IUTInfoAix-R203))
+### Dépôts GitHub publics (organisation [`IUTInfoAix-R203`](https://github.com/IUTInfoAix-R203))
 
-- [`tp`](https://github.com/IUTInfoAix-R203/tp) — index public des TP avec liens Classroom
-- [`tp1`](https://github.com/IUTInfoAix-R203/tp1) — TP1 Git avancé
-- `tp2`, `tp3`, `tp4` — à venir
+- [`tp`](https://github.com/IUTInfoAix-R203/tp) — **page d'accueil étudiants** : index des TP avec tous les liens Classroom
 - [`syllabus`](https://github.com/IUTInfoAix-R203/syllabus) — ce document
 - `cours` — slides Marp des CM (à venir)
-- [`template-tp-java`](https://github.com/IUTInfoAix-R203/template-tp-java) — méta-template utilisé pour générer chaque TP (privé, mécanique interne)
-- [`classroom-sync`](https://github.com/IUTInfoAix-R203/classroom-sync) — automate la propagation des TPs enseignant vers les templates Classroom (privé, mécanique interne)
 - [`IUTInfoAix-R203-archive`](https://github.com/IUTInfoAix-R203-archive/) — anciennes versions des TP (2022) et CC Wordle
+
+### Accès aux TPs
+
+Les dépôts des TPs eux-mêmes (`tp1`, `tp2`, `tp3`, `tp4`) sont **privés côté enseignant** pour éviter que les étudiants y récupèrent la correction directement. Les étudiants reçoivent leur exemplaire via les liens Classroom listés sur la [page d'accueil](https://github.com/IUTInfoAix-R203/tp).
 
 ### Environnement recommandé
 
