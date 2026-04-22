@@ -56,7 +56,7 @@ Les acquis critiques officiellement rattachés à R2.03 :
 
 ### SAÉ concernée par cette ressource
 
-- **SAÉ 2.01** — Développement d'une application
+- **SAÉ 2.01** — Développement d'une application. **SAÉ portée conjointement avec R2.02 (Développement d'applications avec IHM)** — les compétences Git/TDD/revue de code y sont mobilisées pour garantir la qualité du développement, les compétences JavaFX/FXML/MVVM pour construire l'application.
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
