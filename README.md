@@ -121,10 +121,12 @@ Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai
 
 ### Cours magistraux (4 h au total)
 
-| CM | Thème | Prépare | Niveau Bloom | Statut |
+| CM | Thème | Prépare | Niveau Bloom | Slides |
 |----|-------|---------|--------------|--------|
-| CM1 | Artisanat logiciel, qualité, Git avancé | TP1 + TP2 | Comprendre → Appliquer | ⏳ À venir |
-| CM2 | TDD, refactoring, code smells, Clean Code | TP3 + TP4 | Analyser → Créer | ⏳ À venir |
+| [CM1](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) | Artisanat logiciel, qualité, Git avancé | TP1 + TP2 | Comprendre → Appliquer | [HTML](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.pdf) |
+| [CM2](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) | TDD, refactoring, code smells, Clean Code | TP3 + TP4 | Analyser → Créer | [HTML](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.pdf) |
+
+Index des slides : <https://iutinfoaix-r203.github.io/cours/>. Le contenu des deux CM est un squelette au 22 avril 2026 — il sera enrichi au fil des semaines précédant chaque séance.
 
 Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3 et TP4 :
 - Avant TP3 : kata en pair programming (driver/navigator) sur Bowling ou Tennis
@@ -235,7 +237,7 @@ Appréciée tout au long du semestre. Critères :
 
 - [`tp`](https://github.com/IUTInfoAix-R203/tp) — **page d'accueil étudiants** : index des TP avec tous les liens Classroom
 - [`syllabus`](https://github.com/IUTInfoAix-R203/syllabus) — ce document
-- `cours` — slides Marp des CM (à venir)
+- [`cours`](https://github.com/IUTInfoAix-R203/cours) — slides Marp des CM (publiés sur <https://iutinfoaix-r203.github.io/cours/>)
 - [`IUTInfoAix-R203-archive`](https://github.com/IUTInfoAix-R203-archive/) — anciennes versions des TP (2022) et CC Wordle
 
 ### Accès aux TPs
