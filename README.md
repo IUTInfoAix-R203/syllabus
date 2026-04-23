@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-R510/Syllabus/main/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 — Qualité de développement
+# <img src="https://raw.githubusercontent.com/IUTInfoAix-R510/Syllabus/main/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
 
-## BUT Informatique — 1ère année — IUT Aix-Marseille (département Informatique)
+## BUT Informatique - 1ère année - IUT Aix-Marseille (département Informatique)
 
 ---
 
@@ -14,7 +14,7 @@
 - **Enseignantes** :
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
-- **Ressource officielle** : [Annexe D du PN BUT Informatique — fiche R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+- **Ressource officielle** : [Annexe D du PN BUT Informatique - fiche R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
 - **Mots-clés officiels** : Qualité, Test, Gestion de version
 
 ---
@@ -41,14 +41,14 @@ Trois compétences du référentiel BUT Informatique sont ciblées par R2.03 :
 
 Les acquis critiques officiellement rattachés à R2.03 :
 
-- **C1 AC2** — Élaborer des conceptions simples
-- **C1 AC3** — Faire des essais et évaluer leurs résultats en regard des spécifications *(cœur du module : tests unitaires et non-régression)*
-- **C4 AC2** — Visualiser des données *(traces et outils de débogage)*
-- **C5 AC2** — Mettre en place les outils de gestion de projet *(gestion de versions Git/GitHub)*
+- **C1 AC2** - Élaborer des conceptions simples
+- **C1 AC3** - Faire des essais et évaluer leurs résultats en regard des spécifications *(cœur du module : tests unitaires et non-régression)*
+- **C4 AC2** - Visualiser des données *(traces et outils de débogage)*
+- **C5 AC2** - Mettre en place les outils de gestion de projet *(gestion de versions Git/GitHub)*
 
 ### Savoirs de référence (descriptif PN)
 
-- Première approche de la gestion des cas d'erreurs (ex : `Exception`…)
+- Première approche de la gestion des cas d'erreurs (ex : `Exception`...)
 - Sensibilisation à la production de **tests unitaires**, problématique de la **non-régression**
 - **Automatisation** de tests unitaires
 - **Traces** et utilisation d'outils de débogage
@@ -82,7 +82,7 @@ Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'app
 
 - **R1.01 (Initiation au développement)** : bases de la programmation (C++)
 - **R2.01 (Développement orienté objets)** : POO Java (classes, héritage, interfaces, collections)
-- **Bases de Git au S1** : `clone`, `add`, `commit`, `push`, `pull`, `branch`, `checkout` — le TP1 sert justement à corriger les mauvaises habitudes acquises et à introduire les concepts avancés
+- **Bases de Git au S1** : `clone`, `add`, `commit`, `push`, `pull`, `branch`, `checkout` - le TP1 sert justement à corriger les mauvaises habitudes acquises et à introduire les concepts avancés
 
 ### Compétences techniques
 
@@ -107,11 +107,11 @@ Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai
 
 | Semaine | Date | CM | TD | TP | Contenu |
 |---|---|---|---|---|---|
-| 1 | Lun. 27 avril 2026 | 2 h | — | — | **CM1** : Artisanat logiciel, qualité, Git avancé |
+| 1 | Lun. 27 avril 2026 | 2 h | - | - | **CM1** : Artisanat logiciel, qualité, Git avancé |
 | 2 | Lun. 4 mai 2026 | 2 h | 4 h | 4 h | **CM2** : TDD & refactoring · **TP1** Git (~2 h TD) · **TP2** TDD |
-| 3 | Lun. 11 mai 2026 | — | — | 4 h | **TP3** Kata en pair programming |
-| 4 | Lun. 18 mai 2026 | — | — | 4 h | **TP4** Refactoring |
-| **Examen** | **Lun. 15 juin 2026** | — | **2 h** | — | **CC3** test écrit commun avec R2.02 (salle de test) |
+| 3 | Lun. 11 mai 2026 | - | - | 4 h | **TP3** Kata en pair programming |
+| 4 | Lun. 18 mai 2026 | - | - | 4 h | **TP4** Refactoring |
+| **Examen** | **Lun. 15 juin 2026** | - | **2 h** | - | **CC3** test écrit commun avec R2.02 (salle de test) |
 
 **Durée d'une séance** : bloc de 4 h ou 2 × 2 h selon le groupe. Le responsable organise le découpage avec la scolarité.
 
@@ -124,13 +124,13 @@ Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai
 | [CM1](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) | Artisanat logiciel, qualité, Git avancé | TP1 + TP2 | Comprendre → Appliquer | [HTML](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.pdf) |
 | [CM2](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) | TDD, refactoring, code smells, Clean Code | TP3 + TP4 | Analyser → Créer | [HTML](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.pdf) |
 
-Index des slides : <https://iutinfoaix-r203.github.io/cours/>. Le contenu des deux CM est un squelette au 22 avril 2026 — il sera enrichi au fil des semaines précédant chaque séance.
+Index des slides : <https://iutinfoaix-r203.github.io/cours/>. Le contenu des deux CM est un squelette au 22 avril 2026 - il sera enrichi au fil des semaines précédant chaque séance.
 
 Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3 et TP4 :
 - Avant TP3 : kata en pair programming (driver/navigator) sur Bowling ou Tennis
 - Avant TP4 : refactoring IDE sur Gilded Rose (reconnaissance d'un code smell, application d'un refactoring de Fowler étape par étape)
 
-**Fil rouge des CM** — trois axes traversent l'ensemble :
+**Fil rouge des CM** - trois axes traversent l'ensemble :
 
 - **🔨 Artisanat** : conventions (Conventional Commits) → baby steps → kata comme exercice régulier
 - **✨ Qualité** : tests comme spécification exécutable → couverture → code smells → refactorings
@@ -194,7 +194,7 @@ L'usage de **GitHub Copilot Chat** est **encouragé** dans un rôle pédagogique
 | **CC2** | 10 | Continue | Participation, qualité des revues de PR, régularité des commits |
 | **CC3** | 40 | Écrit final | Mini-kata TDD à écrire sur feuille (2 heures, sans outil d'assistance) |
 
-### CC1 — Autograding TP
+### CC1 - Autograding TP
 
 Chaque TP (à partir du TP2) publie une note sur GitHub Classroom via le workflow `classroom.yml` :
 
@@ -206,7 +206,7 @@ Chaque TP (à partir du TP2) publie une note sur GitHub Classroom via le workflo
 
 La **moyenne de TP2, TP3 et TP4** constitue la note CC1. Le TP1 Git est une mise à niveau obligatoire mais non notée.
 
-### CC2 — Participation et implication
+### CC2 - Participation et implication
 
 Appréciée tout au long du semestre. Critères :
 
@@ -215,17 +215,17 @@ Appréciée tout au long du semestre. Critères :
 - **Qualité des revues de PR** croisées avec ses voisins (pas des "ok lgtm", mais des commentaires utiles)
 - Respect du workflow git (commits Conventional, branches par exercice, PR systématiques)
 
-### CC3 — Examen terminal écrit
+### CC3 - Examen terminal écrit
 
 - **Date** : lundi 15 juin 2026, **en commun avec R2.02** (salle de test)
 - **Durée** : 2 heures
 - **Documents autorisés** : aucun outil d'assistance (pas de Copilot, pas d'IDE, pas de navigateur)
-- **Sujet** : mini-kata TDD à coder sur feuille — on donne un cahier de tests, l'étudiant écrit le code qui les fait passer en TDD baby steps
+- **Sujet** : mini-kata TDD à coder sur feuille - on donne un cahier de tests, l'étudiant écrit le code qui les fait passer en TDD baby steps
 - **Barème** : cohérent avec les sujets d'examen des années précédentes
 
 ### Anciens sujets d'examen (archive)
 
-- [TestIHM2022 dans l'archive](https://github.com/IUTInfoAix-R203-archive/) — ancien CC partagé R2.02 / R2.03 (kata Wordle). Peut servir comme entraînement pour le format "mini-kata TDD sur feuille".
+- [TestIHM2022 dans l'archive](https://github.com/IUTInfoAix-R203-archive/) - ancien CC partagé R2.02 / R2.03 (kata Wordle). Peut servir comme entraînement pour le format "mini-kata TDD sur feuille".
 
 ---
 
@@ -233,10 +233,10 @@ Appréciée tout au long du semestre. Critères :
 
 ### Dépôts GitHub publics (organisation [`IUTInfoAix-R203`](https://github.com/IUTInfoAix-R203))
 
-- [`tp`](https://github.com/IUTInfoAix-R203/tp) — **page d'accueil étudiants** : index des TP avec tous les liens Classroom
-- [`syllabus`](https://github.com/IUTInfoAix-R203/syllabus) — ce document
-- [`cours`](https://github.com/IUTInfoAix-R203/cours) — slides Marp des CM (publiés sur <https://iutinfoaix-r203.github.io/cours/>)
-- [`IUTInfoAix-R203-archive`](https://github.com/IUTInfoAix-R203-archive/) — anciennes versions des TP (2022) et CC Wordle
+- [`tp`](https://github.com/IUTInfoAix-R203/tp) - **page d'accueil étudiants** : index des TP avec tous les liens Classroom
+- [`syllabus`](https://github.com/IUTInfoAix-R203/syllabus) - ce document
+- [`cours`](https://github.com/IUTInfoAix-R203/cours) - slides Marp des CM (publiés sur <https://iutinfoaix-r203.github.io/cours/>)
+- [`IUTInfoAix-R203-archive`](https://github.com/IUTInfoAix-R203-archive/) - anciennes versions des TP (2022) et CC Wordle
 
 ### Accès aux TPs
 
@@ -244,28 +244,28 @@ Les dépôts des TPs eux-mêmes (`tp1`, `tp2`, `tp3`, `tp4`) sont **privés côt
 
 ### Environnement recommandé
 
-- **GitHub Codespaces** (option cloud gratuite via GitHub Education) — **vivement recommandé**, tout est préconfiguré
+- **GitHub Codespaces** (option cloud gratuite via GitHub Education) - **vivement recommandé**, tout est préconfiguré
 - **VS Code + extensions Java + GitHub Copilot Chat** (en local ou dans Codespace)
 - **IntelliJ IDEA** (accepté, configurations `.idea/` fournies dans les templates)
 
 ### Documentation officielle
 
-- [Pro Git — livre complet gratuit, en français](https://git-scm.com/book/fr/v2)
-- [Learn Git Branching — tutoriel interactif](https://learngitbranching.js.org/?locale=fr_FR)
-- [Conventional Commits — spécification](https://www.conventionalcommits.org/fr/)
+- [Pro Git - livre complet gratuit, en français](https://git-scm.com/book/fr/v2)
+- [Learn Git Branching - tutoriel interactif](https://learngitbranching.js.org/?locale=fr_FR)
+- [Conventional Commits - spécification](https://www.conventionalcommits.org/fr/)
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 - [AssertJ Core Documentation](https://assertj.github.io/doc/)
 - [Mockito Documentation](https://site.mockito.org)
 - [ApprovalTests Java](https://github.com/approvals/ApprovalTests.Java)
-- [Martin Fowler — Refactoring](https://refactoring.com) (référence du TP4)
-- [Martin Fowler — Test Double](https://martinfowler.com/bliki/TestDouble.html)
+- [Martin Fowler - Refactoring](https://refactoring.com) (référence du TP4)
+- [Martin Fowler - Test Double](https://martinfowler.com/bliki/TestDouble.html)
 
 ### Lectures conseillées (au-delà du module)
 
-- *Clean Code* — Robert C. Martin
-- *The Pragmatic Programmer* — Hunt & Thomas
-- *Working Effectively with Legacy Code* — Michael Feathers (pour aller plus loin sur le refactoring)
-- *Test-Driven Development by Example* — Kent Beck (référence du TDD baby steps)
+- *Clean Code* - Robert C. Martin
+- *The Pragmatic Programmer* - Hunt & Thomas
+- *Working Effectively with Legacy Code* - Michael Feathers (pour aller plus loin sur le refactoring)
+- *Test-Driven Development by Example* - Kent Beck (référence du TDD baby steps)
 
 ---
 
