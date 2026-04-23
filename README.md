@@ -8,13 +8,13 @@
 
 - **Intitulé** : R2.03 - Qualité de développement
 - **Semestre** : S2
-- **Volume horaire PN** : 18 h (dont 14 h de TP)
-- **Maquette locale 2025-2026** : 4 h CM + 5 h TD + 13 h TP + 2 h test écrit
+- **Volume horaire PN** : 17 h (dont 12 h de TP)
+- **Maquette locale IUT Aix-Marseille 2025-2026** : 4 h CM + 4 h TD + 12 h TP + 2 h test écrit
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
 - **Enseignantes** :
   - [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr)
   - [Leïla Sakli Miled](mailto:leila.SAKLI@univ-amu.fr)
-- **Ressource officielle** : [Annexe D du PN BUT Informatique - fiche R2.03](https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/5/Annexe_17_INFO_BUT_annee_1_1411355.pdf)
+- **Ressource officielle** : [Annexe 15 du PN BUT Informatique 2022 - fiche R2.03 p. 93](https://cache.media.education.gouv.fr/file/SP4-MESRI-26-5-2022/14/6/spe617_annexe15_1426146.pdf)
 - **Mots-clés officiels** : Qualité, Test, Gestion de version
 
 ---
@@ -29,22 +29,28 @@ En pratique, le module vise à maîtriser les **fondations de l'artisanat logici
 
 ### Compétences BUT ciblées
 
-Trois compétences du référentiel BUT Informatique sont ciblées par R2.03 :
+Deux compétences du référentiel BUT Informatique sont ciblées par R2.03 :
 
 | Compétence | Intitulé |
 |---|---|
-| **Compétence 1** | Développer des applications informatiques simples |
-| **Compétence 4** | Concevoir et mettre en place une base de données à partir d'un cahier des charges client |
-| **Compétence 5** | Identifier les besoins métiers des clients et des utilisateurs |
+| **Compétence 1** | Développer - c'est-à-dire concevoir, coder, tester et intégrer - une solution informatique pour un client |
+| **Compétence 5** | Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles |
 
 ### Apprentissages critiques (AC)
 
+> [!NOTE]
+> **Lecture des codes d'apprentissages critiques** : dans le PN BUT Informatique 2022, le code `ACLCNN` se décompose ainsi :
+> - `L` = niveau (1 = BUT1, 2 = BUT2, 3 = BUT3)
+> - `C` = numéro de la compétence
+> - `NN` = numéro séquentiel de l'AC dans cette compétence à ce niveau
+>
+> Exemple : `AC11.02` = 2e apprentissage critique de la compétence 1 au niveau BUT1.
+
 Les acquis critiques officiellement rattachés à R2.03 :
 
-- **C1 AC2** - Élaborer des conceptions simples
-- **C1 AC3** - Faire des essais et évaluer leurs résultats en regard des spécifications *(cœur du module : tests unitaires et non-régression)*
-- **C4 AC2** - Visualiser des données *(traces et outils de débogage)*
-- **C5 AC2** - Mettre en place les outils de gestion de projet *(gestion de versions Git/GitHub)*
+- **AC11.02** - Élaborer des conceptions simples
+- **AC11.03** - Faire des essais et évaluer leurs résultats en regard des spécifications *(cœur du module : tests unitaires et non-régression)*
+- **AC15.02** - Mettre en place les outils de gestion de projet *(gestion de versions Git/GitHub)*
 
 ### Savoirs de référence (descriptif PN)
 
@@ -62,15 +68,15 @@ Les acquis critiques officiellement rattachés à R2.03 :
 
 À l'issue de cette ressource, l'étudiant sera capable de :
 
-1. **Utiliser Git en pro** : rebase, cherry-pick, rebase interactif, reflog, Conventional Commits *(C5 AC2)*
-2. **Collaborer** via pull request + code review croisée, et relire constructivement le code d'un pair *(C5 AC2)*
-3. **Pratiquer le TDD strict** : cycle RED-GREEN-REFACTOR, baby steps, fake-it, triangulation *(C1 AC3)*
-4. **Gérer les cas d'erreur** : `try/catch`, exceptions vérifiées vs non vérifiées, messages d'erreur explicites *(C1 AC2)*
-5. **Pratiquer la non-régression** : un filet de tests exécuté en CI à chaque modification *(C1 AC3)*
-6. **Lire des traces de test et un stack trace** pour localiser la cause d'un échec *(C4 AC2)*
-7. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution *(C5 AC2)*
+1. **Utiliser Git en pro** : rebase, cherry-pick, rebase interactif, reflog, Conventional Commits *(AC15.02)*
+2. **Collaborer** via pull request + code review croisée, et relire constructivement le code d'un pair *(AC15.02)*
+3. **Pratiquer le TDD strict** : cycle RED-GREEN-REFACTOR, baby steps, fake-it, triangulation *(AC11.03)*
+4. **Gérer les cas d'erreur** : `try/catch`, exceptions vérifiées vs non vérifiées, messages d'erreur explicites *(AC11.02)*
+5. **Pratiquer la non-régression** : un filet de tests exécuté en CI à chaque modification *(AC11.03)*
+6. **Lire des traces de test et un stack trace** pour localiser la cause d'un échec *(AC11.03)*
+7. **Utiliser Copilot Chat comme tuteur** (compréhension, documentation), jamais comme générateur de solution *(AC15.02)*
 
-> **Note** : le TP3 (kata en pair programming) et le TP4 (refactoring et code smells) vont au-delà du strict descriptif PN. Ces ajouts visent à consolider C1 AC3 en pratiquant le TDD sur des exercices plus riches et à préparer la SAÉ 2.01 (développement d'application) en introduisant les réflexes de lecture et d'amélioration de code existant.
+> **Note** : le TP3 (kata en pair programming) et le TP4 (refactoring et code smells) vont au-delà du strict descriptif PN. Ces ajouts visent à consolider AC11.03 en pratiquant le TDD sur des exercices plus riches et à préparer la SAÉ 2.01 (développement d'application) en introduisant les réflexes de lecture et d'amélioration de code existant.
 
 ---
 
@@ -136,7 +142,7 @@ Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3
 - **✨ Qualité** : tests comme spécification exécutable → couverture → code smells → refactorings
 - **🤝 Collaboration** : Git avancé → PR + review → pair programming
 
-### Travaux pratiques (13 h TP + 4 h TD)
+### Travaux pratiques (12 h TP + 4 h TD)
 
 | TP | Thème | Exercices | Format | Noté | Statut |
 |----|-------|-----------|--------|------|--------|
