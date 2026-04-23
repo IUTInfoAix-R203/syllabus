@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/IUTInfoAix-R510/Syllabus/main/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
+# <img src=".github/assets/logo.png" alt="class logo" class="logo" width="120"/> R2.03 - Qualité de développement
 
 ## BUT Informatique - 1ère année - IUT Aix-Marseille (département Informatique)
 
