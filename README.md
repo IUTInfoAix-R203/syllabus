@@ -99,7 +99,7 @@ Le PN ne formalise **aucun prérequis** pour R2.03. En pratique, le module s'app
 ### Environnement technique
 
 - **Java 25** (JDK Zulu)
-- **Maven Wrapper 3.9.14** (`./mvnw` fourni dans chaque TP, aucune installation manuelle)
+- **Apache Maven 3.9.14 via Maven Wrapper** (`./mvnw` fourni dans chaque TP, aucune installation manuelle)
 - **GitHub Codespaces** (recommandé, environnement cloud préconfiguré)
 - **VS Code** + extensions Java + **GitHub Copilot Chat** (activé en mode tuteur)
 
