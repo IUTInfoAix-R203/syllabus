@@ -206,13 +206,13 @@ Ces coefficients sont ceux utilisés par la scolarité pour le calcul de la note
 
 ### CC1 - Autograding TP
 
-Chaque TP (à partir du TP2) publie une note sur GitHub Classroom via le workflow `classroom.yml` :
+Chaque TP (à partir du TP2) publie un score sur GitHub Classroom via le workflow `classroom.yml` :
 
-- Compilation : 10 pts
-- Chaque exercice : 90 / N pts (équirépartition sur les N exercices)
-- À l'intérieur d'un exercice : les points sont répartis entre les méthodes de test
-- Un test `@Disabled` rapporte **0 point** (un TP "non fait" reste à 0, pas 100)
-- Total sur 100 par TP
+- Compilation : 100 pts
+- Chaque exercice : 900 / N pts (équirépartition sur les N exercices)
+- À l'intérieur d'un exercice : les points sont répartis entre les méthodes de test, chaque test valant au moins 1 point
+- Un test `@Disabled` rapporte **0 point** (un TP « non fait » reste à 0, pas à 1000)
+- **Total sur 1000 par TP** (affiché brut par Classroom, ex : `Points 250/1000` ; ramené sur 20 au calcul final en divisant par 50)
 
 La **moyenne de TP2, TP3 et TP4** constitue la note CC1. Le TP1 Git est une mise à niveau obligatoire mais non notée.
 
