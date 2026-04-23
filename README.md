@@ -66,7 +66,7 @@ Les acquis critiques officiellement rattachés à R2.03 :
 
 ### Acquis d'apprentissage détaillés (implémentation 2025-2026)
 
-À l'issue de cette ressource, l'étudiant sera capable de :
+À l'issue de cette ressource, vous serez capable de :
 
 1. **Utiliser Git en pro** : rebase, cherry-pick, rebase interactif, reflog, Conventional Commits *(AC15.02)*
 2. **Collaborer** via pull request + code review croisée, et relire constructivement le code d'un pair *(AC15.02)*
@@ -117,11 +117,11 @@ Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai
 | 2 | Lun. 4 mai 2026 | 2 h | 4 h | 4 h | **CM2** : TDD & refactoring · **TP1** Git (~2 h TD) · **TP2** TDD |
 | 3 | Lun. 11 mai 2026 | - | - | 4 h | **TP3** Kata en pair programming |
 | 4 | Lun. 18 mai 2026 | - | - | 4 h | **TP4** Refactoring |
-| **Examen** | **Lun. 15 juin 2026** | - | **2 h** | - | **CC3** test écrit commun avec R2.02 (salle de test) |
+| **Examen** | **Lun. 15 juin 2026** | - | **2 h** | - | **CC3** test écrit commun avec R2.02 |
 
 **Durée d'une séance** : bloc de 4 h ou 2 × 2 h selon le groupe. Le responsable organise le découpage avec la scolarité.
 
-**Entre le TP4 (18 mai) et l'examen (15 juin)** : la SAE 2.01 occupe les étudiants. L'examen a lieu **après la SAE** pour que les étudiants y arrivent avec les réflexes TDD consolidés par leur projet.
+**Entre le TP4 (18 mai) et l'examen (15 juin)** : la promo est mobilisée par la SAE 2.01. L'examen a lieu **après la SAE** pour y arriver avec les réflexes TDD consolidés par le projet.
 
 ### Cours magistraux (4 h au total)
 
@@ -130,7 +130,7 @@ Le module est concentré sur **4 semaines d'enseignement** du 27 avril au 18 mai
 | [CM1](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) | Artisanat logiciel, qualité, Git avancé | TP1 + TP2 | Comprendre → Appliquer | [HTML](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm1-artisanat-et-git.pdf) |
 | [CM2](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) | TDD, refactoring, code smells, Clean Code | TP3 + TP4 | Analyser → Créer | [HTML](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.html) · [PDF](https://iutinfoaix-r203.github.io/cours/cm2-tdd-refactoring.pdf) |
 
-Index des slides : <https://iutinfoaix-r203.github.io/cours/>. Le contenu des deux CM est un squelette au 22 avril 2026 - il sera enrichi au fil des semaines précédant chaque séance.
+Index des slides : <https://iutinfoaix-r203.github.io/cours/>.
 
 Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3 et TP4 :
 - Avant TP3 : kata en pair programming (driver/navigator) sur Bowling ou Tennis
@@ -144,14 +144,14 @@ Deux **démos live** de 20 min complètent les CM, en ouverture des séances TP3
 
 ### Travaux pratiques (12 h TP + 4 h TD)
 
-| TP | Thème | Exercices | Format | Noté | Statut |
-|----|-------|-----------|--------|------|--------|
-| TP1 | Git avancé et bonnes pratiques | 7 ateliers | ~2 h TD (semaine 2) | ❌ mise à niveau | ✅ Publié |
-| TP2 | TDD | 6 + 1 bonus | ~6 h (TD semaine 2 + TP semaine 2) | ✅ autograding | ⏳ À venir |
-| TP3 | Kata et pair programming | 6 | 4 h TP (semaine 3) | ✅ autograding | ⏳ À venir |
-| TP4 | Refactoring | 6 | 4 h TP (semaine 4) | ✅ autograding | ⏳ À venir |
+| TP | Thème | Exercices | Format | Noté |
+|----|-------|-----------|--------|------|
+| TP1 | Git avancé et bonnes pratiques | 7 ateliers | ~2 h TD (semaine 2) | ❌ mise à niveau |
+| TP2 | TDD | 6 + 1 bonus | ~6 h (TD semaine 2 + TP semaine 2) | ✅ autograding |
+| TP3 | Kata et pair programming | 6 | 4 h TP (semaine 3) | ✅ autograding |
+| TP4 | Refactoring | 6 | 4 h TP (semaine 4) | ✅ autograding |
 
-Les énoncés et le code de chaque TP sont distribués aux étudiants exclusivement via **GitHub Classroom** : l'index public [`tp`](https://github.com/IUTInfoAix-R203/tp) centralise les liens et chaque acceptation crée un dépôt personnel dans l'organisation Classroom [`IUTInfoAix-R203-2026`](https://github.com/IUTInfoAix-R203-2026).
+Les énoncés et le code de chaque TP sont distribués exclusivement via **GitHub Classroom** : l'index public [`tp`](https://github.com/IUTInfoAix-R203/tp) centralise les liens et chaque acceptation crée un dépôt personnel dans l'organisation Classroom [`IUTInfoAix-R203-2026`](https://github.com/IUTInfoAix-R203-2026).
 
 Chaque TP est autonome (son propre dépôt, sa propre fiche Classroom) mais s'inscrit dans la progression : le workflow Git du TP1 (branche → PR → review → merge) est appliqué systématiquement dans TP2-4, et le TDD baby-steps du TP2 est le cadre d'exécution des kata du TP3 et des refactorings du TP4.
 
@@ -161,7 +161,7 @@ Chaque TP est autonome (son propre dépôt, sa propre fiche Classroom) mais s'in
 
 ### Approche TDD baby-step (TP2 à TP4)
 
-Chaque exercice pendant les TP est structuré comme une série de **tests désactivés** (`@Disabled`). L'étudiant active les tests **un par un** dans l'ordre, écrit le code minimal pour les faire passer (fake-it → triangulation → obvious), puis avance.
+Chaque exercice pendant les TP est structuré comme une série de **tests désactivés** (`@Disabled`). Vous activez les tests **un par un** dans l'ordre, écrivez le code minimal pour les faire passer (fake-it → triangulation → obvious), puis avancez.
 
 Cette approche :
 
@@ -172,9 +172,9 @@ Cette approche :
 
 ### Workflow professionnel
 
-- **Lien Classroom** pour chaque TP → un repo par étudiant dans `IUTInfoAix-R203-2026`
+- **Lien Classroom** pour chaque TP → un repo par personne dans `IUTInfoAix-R203-2026`
 - **Une branche par exercice** (workflow introduit au TP1)
-- **Pull Request** pour chaque exercice terminé, **revue croisée** obligatoire (voisin·e + revue Copilot automatique)
+- **Pull Request** pour chaque exercice terminé, **revue croisée** obligatoire (un·e camarade + GitHub Copilot comme reviewer)
 - **Auto-évaluation** via les tests qui tournent en CI GitHub Actions (TP2-4)
 - **Historique propre** en Conventional Commits (pas de `wip` ni de `fix typo`)
 
@@ -188,7 +188,9 @@ L'usage de **GitHub Copilot Chat** est **encouragé** dans un rôle pédagogique
 - ❌ Donner une solution complète dès la première demande
 - ❌ Écrire plus de code que le strict minimum pour faire passer le test rouge courant
 
-**Pourquoi c'est essentiel** : l'évaluation CC3 se fait **sur feuille, sans outil**. L'étudiant doit construire ses propres automatismes.
+**Pourquoi c'est essentiel** : l'évaluation CC3 se fait **sur feuille, sans outil**. Vous devez construire vos propres automatismes.
+
+Copilot intervient aussi dans un **second rôle de reviewer** : à chaque Pull Request ouverte sur un repo de l'organisation, GitHub Copilot est ajouté automatiquement comme reviewer et dépose ses commentaires sur la qualité du code (fonctionnalité *Copilot code review*). À ne pas confondre avec Copilot Chat (tuteur en séance, cadré par `.github/copilot-instructions.md`) : l'un accompagne pendant l'écriture du code, l'autre donne un avis après coup sur une proposition de merge. Vous devez **lire les commentaires** avant de merger, pas juste passer à l'exercice suivant.
 
 ---
 
@@ -199,6 +201,8 @@ L'usage de **GitHub Copilot Chat** est **encouragé** dans un rôle pédagogique
 | **CC1** | 10 | Automatique | Moyenne des notes autograding des **TP2 + TP3 + TP4** (TP1 non compté) |
 | **CC2** | 10 | Continue | Participation, qualité des revues de PR, régularité des commits |
 | **CC3** | 40 | Écrit final | Mini-kata TDD à écrire sur feuille (2 heures, sans outil d'assistance) |
+
+Ces coefficients sont ceux utilisés par la scolarité pour le calcul de la note finale et figurent sur votre bulletin. La note R2.03 ramenée sur 20 est la moyenne pondérée des trois contrôles.
 
 ### CC1 - Autograding TP
 
@@ -218,15 +222,15 @@ Appréciée tout au long du semestre. Critères :
 
 - Présence active en TP
 - Qualité des questions posées
-- **Qualité des revues de PR** croisées avec ses voisins (pas des "ok lgtm", mais des commentaires utiles)
+- **Qualité des revues de PR** croisées avec ses camarades (pas des "ok lgtm", mais des commentaires utiles)
 - Respect du workflow git (commits Conventional, branches par exercice, PR systématiques)
 
 ### CC3 - Examen terminal écrit
 
-- **Date** : lundi 15 juin 2026, **en commun avec R2.02** (salle de test)
+- **Date** : lundi 15 juin 2026, **en commun avec R2.02**
 - **Durée** : 2 heures
 - **Documents autorisés** : aucun outil d'assistance (pas de Copilot, pas d'IDE, pas de navigateur)
-- **Sujet** : mini-kata TDD à coder sur feuille - on donne un cahier de tests, l'étudiant écrit le code qui les fait passer en TDD baby steps
+- **Sujet** : mini-kata TDD à coder sur feuille - on vous donne un cahier de tests, à vous d'écrire le code qui les fait passer en TDD baby steps
 - **Barème** : cohérent avec les sujets d'examen des années précédentes
 
 ### Anciens sujets d'examen (archive)
@@ -239,14 +243,14 @@ Appréciée tout au long du semestre. Critères :
 
 ### Dépôts GitHub publics (organisation [`IUTInfoAix-R203`](https://github.com/IUTInfoAix-R203))
 
-- [`tp`](https://github.com/IUTInfoAix-R203/tp) - **page d'accueil étudiants** : index des TP avec tous les liens Classroom
+- [`tp`](https://github.com/IUTInfoAix-R203/tp) - **page d'accueil publique** : index des TP avec tous les liens Classroom
 - [`syllabus`](https://github.com/IUTInfoAix-R203/syllabus) - ce document
 - [`cours`](https://github.com/IUTInfoAix-R203/cours) - slides Marp des CM (publiés sur <https://iutinfoaix-r203.github.io/cours/>)
 - [`IUTInfoAix-R203-archive`](https://github.com/IUTInfoAix-R203-archive/) - anciennes versions des TP (2022) et CC Wordle
 
 ### Accès aux TPs
 
-Les dépôts des TPs eux-mêmes (`tp1`, `tp2`, `tp3`, `tp4`) sont **privés côté enseignant** pour éviter que les étudiants y récupèrent la correction directement. Les étudiants reçoivent leur exemplaire via les liens Classroom listés sur la [page d'accueil](https://github.com/IUTInfoAix-R203/tp).
+Les dépôts des TPs eux-mêmes (`tp1`, `tp2`, `tp3`, `tp4`) sont **privés côté équipe pédagogique** pour éviter que la correction ne soit directement accessible. Vous recevez votre exemplaire via les liens Classroom listés sur la [page d'accueil](https://github.com/IUTInfoAix-R203/tp).
 
 ### Environnement recommandé
 
@@ -278,5 +282,5 @@ Les dépôts des TPs eux-mêmes (`tp1`, `tp2`, `tp3`, `tp4`) sont **privés côt
 ## 📞 Contact
 
 - **Responsable** : [Sébastien NEDJAR](mailto:sebastien.nedjar@univ-amu.fr)
-- **Équipe pédagogique** : via les issues GitHub du repo concerné, ou e-mail direct aux enseignantes
+- **Équipe pédagogique** : via les issues GitHub du repo concerné, ou par e-mail (adresses listées en tête de document)
 - **Questions d'ordre privé** : e-mail au responsable
